@@ -1,0 +1,26 @@
+PODS:
+  - AutoInsetter (1.2.1)
+  - Charts (3.1.0):
+    - Charts/Core (= 3.1.0)
+  - Charts/Core (3.1.0)
+  - Pageboy (2.4.0)
+  - SwiftMessages (4.1.0)
+  - Tabman (1.6.0):
+    - AutoInsetter (~> 1.2.0)
+    - Pageboy (~> 2.4.0)
+
+DEPENDENCIES:
+  - Charts
+  - SwiftMessages
+  - Tabman
+
+SPEC CHECKSUMS:
+  AutoInsetter: d90171b54341b801edd4ab68eee9eec54fdc92b7
+  Charts: 0b0c96f6118b6ce63f11adbcaa3b31045ee4d772
+  Pageboy: b04cee5c1315a865fb49321129d12635e8465144
+  SwiftMessages: 1bacc783c8f10bdfdc57c14860cae8a1f1fa6591
+  Tabman: a9be97d1c75b4b7f40eec416021f614c4ccbb670
+
+PODFILE CHECKSUM: fab8590ee06447d8be51d71e6e03b7aa8897bca0
+
+COCOAPODS: 1.4.0
