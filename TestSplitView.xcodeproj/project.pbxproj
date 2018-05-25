@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C32E8D320581A9E00ADB2CC /* FormSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C32E8D220581A9E00ADB2CC /* FormSheetViewController.swift */; };
 		0C3DFCC220206C8D00DDD88F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3DFCC120206C8D00DDD88F /* AppDelegate.swift */; };
-		0C3DFCC420206C8D00DDD88F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3DFCC320206C8D00DDD88F /* ViewController.swift */; };
+		0C3DFCC420206C8D00DDD88F /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3DFCC320206C8D00DDD88F /* SplitViewController.swift */; };
 		0C3DFCC720206C8D00DDD88F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3DFCC520206C8D00DDD88F /* Main.storyboard */; };
 		0C3DFCC920206C8D00DDD88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3DFCC820206C8D00DDD88F /* Assets.xcassets */; };
 		0C3DFCCC20206C8D00DDD88F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3DFCCA20206C8D00DDD88F /* LaunchScreen.storyboard */; };
+		0C3DFCD4202071DE00DDD88F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3DFCD3202071DE00DDD88F /* DetailsViewController.swift */; };
+		0C6F5A4220343A3F00F30D88 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F5A4120343A3F00F30D88 /* RootTableViewController.swift */; };
+		0C9A4DD6206A8E3D001A5826 /* CurrencyPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9A4DD5206A8E3D001A5826 /* CurrencyPopup.swift */; };
+		0CE4FC06206A8EB60071ADB0 /* MACurrencyPickerTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE4FC03206A8EB60071ADB0 /* MACurrencyPickerTable.xib */; };
+		0CE4FC07206A8EB60071ADB0 /* MACurrencyPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE4FC04206A8EB60071ADB0 /* MACurrencyPicker.swift */; };
+		0CE4FC08206A8EB60071ADB0 /* MACurrencyPickerTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE4FC05206A8EB60071ADB0 /* MACurrencyPickerTable.swift */; };
+		0CE4FC0A206A90CC0071ADB0 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE4FC09206A90CC0071ADB0 /* AccountViewController.swift */; };
+		0CE662272056C01400EDBA86 /* AccountNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE662262056C01400EDBA86 /* AccountNavigation.swift */; };
+		D9566284D1752C6ACEFD61E1 /* Pods_TestSplitView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49759B73E665FDCF439C7AC8 /* Pods_TestSplitView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C32E8D220581A9E00ADB2CC /* FormSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSheetViewController.swift; sourceTree = "<group>"; };
 		0C3DFCBE20206C8D00DDD88F /* TestSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3DFCC120206C8D00DDD88F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C3DFCC320206C8D00DDD88F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C3DFCC320206C8D00DDD88F /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		0C3DFCC620206C8D00DDD88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C3DFCC820206C8D00DDD88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C3DFCCB20206C8D00DDD88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C3DFCCD20206C8D00DDD88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3DFCD3202071DE00DDD88F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		0C6F5A4120343A3F00F30D88 /* RootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		0C9A4DD5206A8E3D001A5826 /* CurrencyPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPopup.swift; sourceTree = "<group>"; };
+		0CE4FC03206A8EB60071ADB0 /* MACurrencyPickerTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MACurrencyPickerTable.xib; path = "folder bez nazwy/MACurrencyPickerTable.xib"; sourceTree = SOURCE_ROOT; };
+		0CE4FC04206A8EB60071ADB0 /* MACurrencyPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MACurrencyPicker.swift; path = "folder bez nazwy/MACurrencyPicker.swift"; sourceTree = SOURCE_ROOT; };
+		0CE4FC05206A8EB60071ADB0 /* MACurrencyPickerTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MACurrencyPickerTable.swift; path = "folder bez nazwy/MACurrencyPickerTable.swift"; sourceTree = SOURCE_ROOT; };
+		0CE4FC09206A90CC0071ADB0 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		0CE662262056C01400EDBA86 /* AccountNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountNavigation.swift; sourceTree = "<group>"; };
+		3F92F5E04787CBDCAFD112D3 /* Pods-TestSplitView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSplitView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestSplitView/Pods-TestSplitView.release.xcconfig"; sourceTree = "<group>"; };
+		472FCB094E2D2F0B301811EF /* Pods-TestSplitView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSplitView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestSplitView/Pods-TestSplitView.debug.xcconfig"; sourceTree = "<group>"; };
+		49759B73E665FDCF439C7AC8 /* Pods_TestSplitView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSplitView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9566284D1752C6ACEFD61E1 /* Pods_TestSplitView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				0C3DFCC020206C8D00DDD88F /* TestSplitView */,
 				0C3DFCBF20206C8D00DDD88F /* Products */,
+				6229361648391EE22FEB4062 /* Pods */,
+				DEDEB0950C675E0C4CE8C7A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,48 @@
 		0C3DFCC020206C8D00DDD88F /* TestSplitView */ = {
 			isa = PBXGroup;
 			children = (
+				0C9A4DD4206A8E09001A5826 /* popup */,
 				0C3DFCC120206C8D00DDD88F /* AppDelegate.swift */,
-				0C3DFCC320206C8D00DDD88F /* ViewController.swift */,
+				0C3DFCC320206C8D00DDD88F /* SplitViewController.swift */,
 				0C3DFCC520206C8D00DDD88F /* Main.storyboard */,
 				0C3DFCC820206C8D00DDD88F /* Assets.xcassets */,
 				0C3DFCCA20206C8D00DDD88F /* LaunchScreen.storyboard */,
 				0C3DFCCD20206C8D00DDD88F /* Info.plist */,
+				0C3DFCD3202071DE00DDD88F /* DetailsViewController.swift */,
+				0C6F5A4120343A3F00F30D88 /* RootTableViewController.swift */,
+				0CE662262056C01400EDBA86 /* AccountNavigation.swift */,
+				0C32E8D220581A9E00ADB2CC /* FormSheetViewController.swift */,
+				0CE4FC09206A90CC0071ADB0 /* AccountViewController.swift */,
 			);
 			path = TestSplitView;
+			sourceTree = "<group>";
+		};
+		0C9A4DD4206A8E09001A5826 /* popup */ = {
+			isa = PBXGroup;
+			children = (
+				0CE4FC04206A8EB60071ADB0 /* MACurrencyPicker.swift */,
+				0CE4FC05206A8EB60071ADB0 /* MACurrencyPickerTable.swift */,
+				0CE4FC03206A8EB60071ADB0 /* MACurrencyPickerTable.xib */,
+				0C9A4DD5206A8E3D001A5826 /* CurrencyPopup.swift */,
+			);
+			path = popup;
+			sourceTree = "<group>";
+		};
+		6229361648391EE22FEB4062 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				472FCB094E2D2F0B301811EF /* Pods-TestSplitView.debug.xcconfig */,
+				3F92F5E04787CBDCAFD112D3 /* Pods-TestSplitView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEDEB0950C675E0C4CE8C7A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49759B73E665FDCF439C7AC8 /* Pods_TestSplitView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C3DFCD020206C8D00DDD88F /* Build configuration list for PBXNativeTarget "TestSplitView" */;
 			buildPhases = (
+				1F17C365AAB4ED3580DE451F /* [CP] Check Pods Manifest.lock */,
 				0C3DFCBA20206C8D00DDD88F /* Sources */,
 				0C3DFCBB20206C8D00DDD88F /* Frameworks */,
 				0C3DFCBC20206C8D00DDD88F /* Resources */,
+				CE9BDE4D816E5D3F5DAF9E75 /* [CP] Embed Pods Frameworks */,
+				7AD396B463E93C64A16B2D5F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C3DFCCC20206C8D00DDD88F /* LaunchScreen.storyboard in Resources */,
+				0CE4FC06206A8EB60071ADB0 /* MACurrencyPickerTable.xib in Resources */,
 				0C3DFCC920206C8D00DDD88F /* Assets.xcassets in Resources */,
 				0C3DFCC720206C8D00DDD88F /* Main.storyboard in Resources */,
 			);
@@ -131,13 +194,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F17C365AAB4ED3580DE451F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSplitView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD396B463E93C64A16B2D5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestSplitView/Pods-TestSplitView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9BDE4D816E5D3F5DAF9E75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestSplitView/Pods-TestSplitView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AutoInsetter/AutoInsetter.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Pageboy/Pageboy.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/Tabman/Tabman.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoInsetter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pageboy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tabman.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestSplitView/Pods-TestSplitView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C3DFCBA20206C8D00DDD88F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C3DFCC420206C8D00DDD88F /* ViewController.swift in Sources */,
+				0CE4FC07206A8EB60071ADB0 /* MACurrencyPicker.swift in Sources */,
+				0C3DFCC420206C8D00DDD88F /* SplitViewController.swift in Sources */,
+				0CE662272056C01400EDBA86 /* AccountNavigation.swift in Sources */,
 				0C3DFCC220206C8D00DDD88F /* AppDelegate.swift in Sources */,
+				0C3DFCD4202071DE00DDD88F /* DetailsViewController.swift in Sources */,
+				0C9A4DD6206A8E3D001A5826 /* CurrencyPopup.swift in Sources */,
+				0CE4FC0A206A90CC0071ADB0 /* AccountViewController.swift in Sources */,
+				0C32E8D320581A9E00ADB2CC /* FormSheetViewController.swift in Sources */,
+				0C6F5A4220343A3F00F30D88 /* RootTableViewController.swift in Sources */,
+				0CE4FC08206A8EB60071ADB0 /* MACurrencyPickerTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +405,13 @@
 		};
 		0C3DFCD120206C8D00DDD88F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472FCB094E2D2F0B301811EF /* Pods-TestSplitView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CHENV4H3L2;
 				INFOPLIST_FILE = TestSplitView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xtm.TestSplitView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +422,13 @@
 		};
 		0C3DFCD220206C8D00DDD88F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F92F5E04787CBDCAFD112D3 /* Pods-TestSplitView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CHENV4H3L2;
 				INFOPLIST_FILE = TestSplitView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xtm.TestSplitView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
